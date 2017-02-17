@@ -21,6 +21,10 @@ h6 {
     font-weight: 700;
 }
 
+#Name {
+    font-size: 18px; 
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -41,8 +45,8 @@ h6 {
 
 .intro-message {
     position: relative;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 50%;
+    padding-bottom: 0%;
 }
 
 .intro-message > h1 {
@@ -114,9 +118,9 @@ h6 {
 }
 
 .banner {
-    padding: 100px 0;
+    padding: 70px 0;
     color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background: url(../img/DSC_2817.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -133,6 +137,10 @@ h6 {
 .banner-social-buttons {
     float: right;
     margin-top: 0;
+}
+
+#footers{
+    float: bottom;
 }
 
 @media(max-width:1199px) {
@@ -161,9 +169,22 @@ h6 {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
     background-color: #f8f8f8;
 }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+  }
+  .carousel-caption h3 {
+      color: #fff !important;
+  }
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+    }
+  }
 
 p.copyright {
     margin: 15px 0 0;
