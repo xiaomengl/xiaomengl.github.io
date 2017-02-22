@@ -35,18 +35,16 @@ h6 {
 }
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    padding-top: 0px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 0px;
 }
 
 .intro-message {
     position: relative;
-    padding-top: 50%;
+    padding-top: 48%;
     padding-bottom: 0%;
+    color: #f8f8f8;
+    text-align: center;
 }
 
 .intro-message > h1 {
@@ -57,7 +55,7 @@ h6 {
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
+    border-top: 0px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
@@ -67,7 +65,7 @@ h6 {
 
 @media(max-width:767px) {
     .intro-message {
-        padding-bottom: 15%;
+        padding-top: 63%;
     }
 
     .intro-message > h1 {
@@ -97,12 +95,12 @@ h6 {
 }
 
 .content-section-a {
-    padding: 50px 0;
+    padding: 40px 0;
     background-color: #f8f8f8;
 }
 
 .content-section-b {
-    padding: 50px 0;
+    padding: 40px 0;
     border-top: 1px solid #e7e7e7;
     border-bottom: 1px solid #e7e7e7;
 }
@@ -196,4 +194,16 @@ footer {
 
 p.copyright {
     margin: 15px 0 0;
+}
+
+.portfolio-3-col {
+    
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.image-bottom-padding{
+    padding-bottom: 20px;
 }
