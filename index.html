@@ -52,7 +52,7 @@
                         <a href="#Home">Home</a>
                     </li>
                     <li>
-                        <a href="#CV">CV</a>
+                        <a href="CV.pdf">CV</a>
                     </li>
                     <li>
                         <a href="#Research">Research</a>
@@ -61,10 +61,10 @@
                         <a href="#Making">Making</a>
                     </li>
                     <li>
-                        <a href="#Photography">Photography</a>
+                        <a href="#Designing">Designing</a>
                     </li>
                     <li>
-                        <a href="#Designing">Designing</a>
+                        <a href="gallery.html">Photography</a>
                     </li>
                 </ul>
             </div>
@@ -154,8 +154,9 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Making</h2>
-                    <p class="lead">I enjoy making things, especially functional machines that comes together with carefully designing and manufacturing. My favorate project are the iPhone stablizer I made for 'How to make anything' and the steam engine I made during the machine shop training.</p>
-                    <p class="lead">Other interesting projects I have done include: casted metal personal stamp, press fit car (left), 3D print wormwhole.</p>
+                    <p class="lead">Making is my hobby, I have done multiple projects of designing and building in the Harvard machine shop and the famous MIT course: <a href="http://fab.cba.mit.edu/classes/863.16/section.Harvard/people/Liu/index.html">How to Make (Almost) Anything</a>. Some of my signature works are shown below.</p>
+                    <h3 class="section-heading">Press fit car</h3>
+                    <p class="lead">On the left is a press and fit car made from cardboard. I modeled the car in Fusion360 and laser cut all the pieces. The wheels of the car can freely rotate. See more detail <a href="http://fab.cba.mit.edu/classes/863.16/section.Harvard/people/Liu/Week%201/week1.html">Here</a>.</p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
                     <img class="img-responsive" src="img/4423.jpg" alt="">
@@ -168,7 +169,6 @@
     </div>
     <!-- /.content-section-b -->
 
-    <a  name="Photography"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -176,11 +176,67 @@
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Photography</h2>
-                    <p class="lead">I like taking photos, they are both memory and expression. check out some of the interesting photos here.</p>
+                    <h3 class="section-heading">Casted personal stamp</h3>
+                    <p class="lead">This is a casted metal (Bithmuth-Tin alloy) stamp. The side of the stamp is the shape of a horse, my Chinese zodiac. The pattern on the bottom is my name in traditional Chinese charactors.</p>
+                    <p class="lead">The fabrication process started with machining wax in a CNC mill. And three part rubber molds are casted into the machined wax to make a negtive mold. The the three part rubber molds are then carefully fit togther for metal pouring.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/DSC_1450.jpg" alt="">
+                    <img class="img-responsive" src="img/stamp.jpg" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">iPhone camera stablizer</h3>
+                    <p class="lead">This is a DIY active feedback iPhone gimbal. It senses the vibration of the device with 3axis gyroscope/ accelerometer. ATmega328 microcontrollers read the sensor, and control the three brushless motors to compensate for the movement with PID feedback. Everything including the body, electronics and coding are designed and made by me. Click <a href="http://fab.cba.mit.edu/classes/863.16/section.Harvard/people/Liu/Gimbal/Gimbal.html">here</a> to view it in action as well as design and fabrication processes.</p>
+                    <h4>Features:</h4>
+                    <ul class="feature">
+                        <li>Reduce camera shake in all directions by 20-30dB.</li>
+                        <li>Joystick to control pan and tilt.</li>
+                        <li>Rechargable 5V battery inside (~2hours battery life).</li>
+                        <li>Magnetic mount allows easy attach and detach.</li>
+                        <li>Hyperlapse mode: rotate camera slowly for more interesting time lapse video.</li>
+                    </ul>
+                    <h4>Major challenges:</h4>
+                    <ul class="feature">
+                        <li>Precise control of brushless motor (< 0.1deg achieved).</li>
+                        <li>Balancing the phone by adjust the parameters of the frame to reduce the required torque.</li>
+                        <li>Optimizing the sensor reading interval, feedback parameters to eliminate self-starting oscillations.</li>
+                    </ul>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <img class="img-responsive" src="img/gimbal.png" alt="">
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <div class="clearfix"></div>
+                    <h3 class="section-heading">Steam engine</h3>
+                    <p class="lead">This model steam engine runs on compressed air. When compressed air feed into the inlet, it pushes a piston to drive the aluminum fly wheel. The body and piston are machined from plexiglass so the inside machanism is visible.</p>
+                    <p class="lead">All the parts are machined by mill or lathe with high accuracy. The fitting between the piston and the cylinder have to be perfect. If the gap is too large, the gas will leak out, and if the gap is too small the piston cannot move freely. Checkout this video to see <a href="https://youtu.be/-isB0galrLY">live action</a>.</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <img class="img-responsive" src="img/DSC_4186.jpg" alt="">
                 </div>
             </div>
 
@@ -211,18 +267,18 @@
                     <h4>
                         <a href="How to design/week1.html">Culture and context</a>
                     </h4>
-                    <p>This week I examined how natural and artificial lights are controlled and used in Apple store to guide attentions and create a comfortable experience.</p>
-                </div>
-                <!-- <div class="col-md-4 portfolio-item">
-                    <a href="#">
-                        <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                    </a>
-                    <h4>
-                        <a href="#">Seeing</a>
-                    </h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                    <p>I examined how natural and artificial lights are used in Apple store to guide attentions and build atmosphere.</p>
                 </div>
                 <div class="col-md-4 portfolio-item">
+                    <a href="How to design/week2.html">
+                        <img class="img-responsive" src="How to design/week2/DSC_4230.jpg" alt="">
+                    </a>
+                    <h4>
+                        <a href="How to design/week2.html">Seeing</a>
+                    </h4>
+                    <p>Using different lighting setups, I explore the effects of lighting in product photography. </p>
+                </div>
+                <!-- <div class="col-md-4 portfolio-item">
                     <a href="#">
                         <img class="img-responsive" src="http://placehold.it/700x400" alt="">
                     </a>
@@ -243,18 +299,18 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>External Links:</h2>
+                    <h3>External Links:</h3>
                 </div>
                 <div class="col-lg-6">
                     <ul class="list-inline banner-social-buttons">
                         <li>
-                            <a href="http://kim.physics.harvard.edu" class="btn btn-default btn-lg"><span class="network-name">Kim Group</span></a>
+                            <a href="http://kim.physics.harvard.edu" class="btn btn-default btn-sm"><span class="network-name">Kim Group</span></a>
                         </li>
                         <li>
-                            <a href="http://fab.cba.mit.edu/classes/863.16/section.Harvard/people/Liu/index.html" class="btn btn-default btn-lg"><span class="network-name">How to make</span></a>
+                            <a href="http://fab.cba.mit.edu/classes/863.16/section.Harvard/people/Liu/index.html" class="btn btn-default btn-sm"><span class="network-name">How to make</span></a>
                         </li>
                         <li>
-                            <a href="https://scholar.google.com/citations?user=fUyhrTIAAAAJ&hl=en" class="btn btn-default btn-lg"><span class="network-name">Google scholar</span></a>
+                            <a href="https://scholar.google.com/citations?user=fUyhrTIAAAAJ&hl=en" class="btn btn-default btn-sm"><span class="network-name">Google scholar</span></a>
                         </li>
                     </ul>
                 </div>
