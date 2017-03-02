@@ -76,16 +76,6 @@ p{
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
     .intro-divider {
         width: 100%;
     }
@@ -141,9 +131,10 @@ p{
     margin-top: 0;
 }
 
-#footers{
-    float: bottom;
+.bannerh3{
+    float:right;
 }
+
 
 @media(max-width:1199px) {
     ul.banner-social-buttons {
@@ -156,17 +147,14 @@ p{
     .banner h3 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 24pt;
+        font-size: 30pt;
     }
 
-    .banner h3 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 24pt;
+    .network-name{
+        font-size: 15pt;
     }
 
     ul.banner-social-buttons > li {
-        display: block;
         margin-bottom: 20px;
         padding: 0;
     }
@@ -200,6 +188,15 @@ footer {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
     }
+    .banner h3 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 24pt;
+    }
+
+    .network-name{
+        font-size: 12pt;
+    }
   }
 
 p.copyright {
@@ -220,4 +217,10 @@ p.copyright {
 
 .feature {
     font-size: 12pt;
+}
+
+.bottombanner{
+    float: none;
+    display: table-cell;
+    vertical-align: bottom;
 }
